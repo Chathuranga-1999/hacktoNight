@@ -1,0 +1,31 @@
+<html>
+<head>
+<script type="text/javascript">
+function sum()
+{
+var  a=document.getElementById("num1").value;
+var b=document.getElementById("num2").value;
+var  c=document.getElementById("num3").value;
+a=parseInt(a);
+b=parseInt(b);
+c=parseInt(c);
+var  tot=a+b+c;
+
+document.write("total is " + tot);
+return tot;
+}
+function avg(t)
+{
+document.write("<br>avaraege is"+ t/3);
+}
+</script>
+</head>
+<body>
+Enter number 1: <input type="text" id="num1"></br>
+Enter number 2: <input type="text" id="num2"></br>
+Enter number 3: <input type="text" id="num3"></br>
+<input type="button"; onclick="sum()" value="total" id="sum">
+<input type="button"; onclick="avg(sum())" value="avarage">
+
+</body>
+</html>
