@@ -1,0 +1,118 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(PICTURES/Signup_new1.jpg);
+    background-size:cover;
+    /* padding-top:1200px; */
+    
+}
+.navbar{
+ 
+    background:transparent !important;
+    width: 100%;
+    height:10%;
+    z-index: 10;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+#img
+{
+    height: 5vh;
+    margin-left: auto;
+}
+.phone, .email
+{
+    margin-right: 10px;
+}
+.phone
+{
+    color: #03a9f4;
+}
+.email
+{
+    color: #e93e91;
+}
+
+.nav-link
+{
+    color: #fff;
+}
+.nav-link:hover
+{
+    color: rgba(216, 216, 216) !important;
+}
+#log
+{
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 0.2rem 1rem !important;
+    line-height: 30px;
+    margin-left: 10px;
+
+}
+#log:hover
+{
+    background-color: #B11336;
+    border: 2px solid #B11336;
+}
+#sign
+{
+    border: 2px solid #FD8202;
+    background-color: #FD8202;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 0.2rem 1rem !important;
+    line-height: 30px;
+}
+#sign:hover
+{
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #B11336 !important;
+}
+.modal-header
+{
+    background-color: rgba(143, 40, 40, 0.473);
+}
+.modal-body
+{
+    background-color: rgba(143, 40, 40, 0.473);
+}
+
+.container
+{
+    color: rgb(255, 255, 255);
+}
+#topimg
+{
+    height: 25vh;
+    width: auto;
+    margin-left: 34%;
+}
+#footer
+{
+    text-decoration: none;
+}
+
+#footer:hover
+{
+    color: #B11336 !important;
+}
+.Copyright
+{
+    background-color: #02010186 !important;
+    color: #B11336;
+}
+
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+    
+}
