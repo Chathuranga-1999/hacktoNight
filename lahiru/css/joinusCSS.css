@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul.li1 li{
+    text-decoration: none;
+    display: inline;
+    
+}
+ul.li1{
+    margin-top: 25px;
+}
+ul.li1 li{
+    padding-right: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    
+}
+.navIMG{
+    height: 68px;
+    width: 68px;
+    margin-top: 6.5px;
+    border-radius: 50% 50% 50% 50%;
+    margin-left: 30px;
+}
+.navi{
+    width: 100.8%;
+    height: 80px;
+    background-color:  #0072b4;
+    
+}
+.hom1{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    /* text-decoration: underline;
+    background-color: black; */
+}
+/* .miss1{
+    /* background-color: rgb(223, 255, 223); */
+ */
+
+.logo1{
+    margin-top: 35%;
+   margin-right: 10px;
+    
+    /* height: 17%;
+    width: 24%; */
+    border-radius: 50% 50% 50% 50%;
+    /* margin-left: 15%; */
+}
+.menf1{
+    margin-top: 20%;
+    /* margin-left: 10%; */
+}
+.menf12{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+.menf11{
+    margin-top: 12%;
+    margin-left: 10%;
+}
+.mefu{
+    margin-top: 30%;
+}
+
+.footer{
+    background-color: #0072b4;
+margin-left: 0.1px;
+height: 400px;
+width: 100%;
+
+}
+ul.lis2 li{
+text-decoration: none;
+display: grid;
+
+}
+
+.logo1{
+    margin-top: 30%;
+   
+    
+    /* height: 17%;
+    width: 24%; */
+    border-radius: 50% 50% 50% 50%;
+    /* margin-left: 15%; */
+}
+
+.donimg1{
+    width: 100%;
+    /* height: 70%; */
+}
+
+/* body{
+
+    background-color: rgba(158, 189, 215, 0.897);
+    height: fit-content;
+    width: fit-content;
+    background-size: cover;
+    background-image:url("h1.jpg");
+    width: fit-content;
+ } */
+ .img11{
+    height: 120px;
+     width: 120px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+  margin-top: 10px;
+ 
+
+ 
+ }
+ #l1{
+   font-size: 20px;
+   font-weight: bold;
+   margin-right: 20px;
+   color: rgb(27, 22, 15);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ .h111{
+  padding-top: 5px;
+  padding-bottom: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    text-indent: 5px;
+  ;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: rgba(145, 165, 230, 0.58); */
+ }
+ 
+ #frm{
+    /* display:flex; */
+    justify-content: center;
+  background-color: rgba(145, 165, 230, 0.468);
+padding-bottom: 10px;
+padding-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+   padding-left: 30px;
+    align-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px;
+      text-indent: 5px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ #t1{
+    
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+ }
+ #bttn{
+   
+    background: rgba(145, 165, 230, 0.737);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 6px;
+    padding-top: 6px; 
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}
+
+
+.formdon1{
+   
+   background-image:url("../image/joinuspic.jpeg");
+   
+   width: 100%;
+   background-size: cover;
+}
+
+
+
+
+
+
+.headAB1{
+    margin-top: 30px;
+    margin-left: 80px;
+    background-color:#0072b4;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-size: 30px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.par1{
+    margin-left: 7%;
+    padding-right: 150px;
+    font-size: 20px;
+    font-weight: 400;
+}
