@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<style>
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #080B51;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.logo{
+position: absolute;
+width: 10%;
+height: 15%;
+left: 2%;
+top: -1.5%;
+}
+
+h3.n{
+    float: left;
+     padding-left: 7%;
+    font-size: 20px;
+    color :white;
+}
+.d{
+    
+    float: left;
+    padding-left: 0.5%;
+}
+/*....................................*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+/* Navbar */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  width: auto;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.137);
+  border-radius: 25px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #010e2a;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(168, 20, 20);
+}
+
+.button {
+  border: none;
+  border-radius: 25px;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #010e2a;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: rgb(5, 3, 89);
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section" >
+  <h1>About Us Page</h1>
+  <p style="font-size: 20px;">Phoenix Airline PVT connects the world to, and through, our global hub in Sri Lanaka. <br>We operate modern, efficient and comfortable aircraft,<br>
+     and our culturally diverse workforce delivers award-winning services to our customers across six continents every day.</p>
+</div>
+
+<!-- <h2 style="text-align:center">Our Team</h2> -->
+<div class="row">
+
+
+  <div class="column">
+    <div class="card">
+      <img src="Career.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h3>Careers</h3>
+        <p style="text-align: justify;">A career with us is an opportunity to work with some of the most brilliant minds in the industry, to contribute to a world class experience that people have come to know and love. You will be part of a highly driven,
+             bold workforce keen on delivering the most innovative products and services.</p>
+        <p><button class="button">More Details</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="safe.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h3>Safety</h3>
+        <p style="text-align: justify;">Safety is one of Phoenix Airline PVT's core values ​​and is the cornerstone of all our operations and practices. 
+            We are committed to maintaining and improving our security levels and those of our clients and fostering a culture of security throughout our company.</p>
+        <p><button class="button">More Details</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="leader.jpeg" alt="John" style="width:100%">
+      <div class="container">
+        <h3>Leadership team</h3>
+        <p style="text-align: justify;">Almost all of the executives at the helm of the Emirates Group have been with the organisation since its birth. 
+            It's their pioneering vision that has given flight to the fastest growing airline in the world ‑ and the Middle East's largest provider of airport and travel services.</p>
+        <p><button class="button">More Details</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+
+  <div class="column">
+    <div class="card">
+      <img src="comunity.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h3>Our communities</h3>
+        <p style="text-align: justify;">We contribute to vibrant communities through our support of cultural and sporting events around the world,
+             and help secure a better future for underprivileged children and children with special needs through the Phoenix Airline PVT Foundation.</p>
+        <p><button class="button">More Details</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="planet.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h3>Our planet</h3>
+        <p style="text-align: justify;">As part of our commitment to looking after our planet, we operate one of the most modern and efficient aircraft fleets in the sky. 
+            We are actively working on ways to reduce resource consumption, while investing in conservation and wildlife protection.</p>
+        <p><button class="button">More Details</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="women.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h3>The women of Phoenix Airline</h3>
+        <p style="text-align: justify;">Every day around the world, Phoenix flights enable travel and commerce. From the cockpit or in the cabin and at service stations around the world,
+            Phoenix women make a vital contribution to the successful operation of each of the airline's flights.</p>
+        <p><button class="button">More Details</button></p>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+</body>
+</html>
