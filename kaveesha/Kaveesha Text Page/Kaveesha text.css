@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+    background-image: linear-gradient(rgba(64, 0, 90, 0.9),rgba(0, 23, 88, 0.9)),url(Kaveesha\ text\ IMG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  font-family: Arial;
+
+}
+
+.container {
+  display: flex;
+/*   border:1px solid red; */
+  height: 100%;
+  align-items: center;
+}
+
+svg {
+    display: block;
+    font: 6.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #efe5ec;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #f8f8f8;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #ffffff;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #fdfafb;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}

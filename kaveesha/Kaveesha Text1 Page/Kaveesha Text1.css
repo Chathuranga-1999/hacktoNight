@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: linear-gradient(rgba(64, 0, 90, 0.9),rgba(0, 23, 88, 0.9)),url(Kaveesha\ text1\ IMG.png);
+}
+
+#instructions {
+	position: absolute;
+	color: #fff;
+	bottom: 0;
+	padding-bottom: 6px;
+	font-family: sans-serif;
+	width: 100%;
+	text-align: center;
+	pointer-events: none;
+}
