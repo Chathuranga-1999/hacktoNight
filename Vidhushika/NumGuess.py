@@ -1,6 +1,6 @@
 import random
 
-a= random.randint(0,100)
+a= random.randint(0,20)
 #returns an integer number to the selected element from the specified range
 
 print("Welcome to the Random Number Guessing game!")
